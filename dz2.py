@@ -2,6 +2,9 @@
 import json
 import requests
 from bs4 import BeautifulSoup
+import time
+import asyncio
+from aiohttp import ClientSession
 import sqlite3
 from pathlib import Path
 
