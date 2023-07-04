@@ -53,9 +53,6 @@ if req.status_code == 200:
         else:
             print('Ошибка получения данных со старницы вакансии:', url2)   
 
-for i in vacancies_list:
-    print(i[0])
-
 # создание таблицы vacancies1 и запись полученных данных в БД
 try:
     sqlite_connection = sqlite3.connect(bd)
